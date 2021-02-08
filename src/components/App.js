@@ -22,7 +22,6 @@ function App() {
       setHouse(data.character.house.name);
     });
   };
-
   return (
     <div className="App">
       <div className="main-box">

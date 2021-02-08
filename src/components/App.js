@@ -27,7 +27,7 @@ function App() {
     <div className="App">
       <div className="main-box">
         <div className="title-box">
-          <h1 className="title">Choose yours Game of Thrones Quotess</h1>
+          <h1 className="title">Choose yours Game of Thrones Quote</h1>
         </div>
         <Quotes
           quote={quote}

@@ -9,12 +9,14 @@
   justify-content: center;
 }
 
+.title-quote {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
 .text {
   margin-left: 20px;
-}
-.quote {
-  font-weight: bold;
-  font-family: "Cinzel Decorative", cursive;
 }
 
 .author {
@@ -26,16 +28,22 @@
 }
 
 .btn {
-  margin-left: 120px;
+  margin-left: 400px;
   font-family: "Cinzel Decorative", cursive;
 }
 
-.author-title {
-  font-weight: bold;
+.btn-text {
   font-family: "Cinzel Decorative", cursive;
+  font-size: 15px;
 }
 
-.house-title {
-  font-weight: bold;
-  font-family: "Cinzel Decorative", cursive;
+.new-quote-btn {
+  height: 50px;
+  width: 200px;
+}
+
+.description {
+  font-family: "Alegreya";
+  font-weight: 200;
+  font-size: 20px;
 }

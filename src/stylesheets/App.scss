@@ -1,5 +1,4 @@
 .App {
-  background-color: purple;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -7,27 +6,15 @@
   justify-content: center;
   align-items: center;
   background-image: url("../images/white.jpg");
-}
 
-// .title {
-//   font-family: "Cinzel Decorative", cursive;
-//   font-size: 27px;
-//   font-weight: 100;
-//   margin-left: 50px;
-// }
-
-.mainBox {
-  border: solid #494e5f 10px;
-  background-color: #96a4d4;
-  padding: 20px;
-  &__title {
-    font-family: "Cinzel Decorative", cursive;
-    font-size: 27px;
-    font-weight: 100;
-    margin-left: 50px;
+  &__mainBox {
+    border: solid #494e5f 10px;
+    background-color: #96a4d4;
+    padding: 20px;
+    &__title {
+      font-family: "Cinzel Decorative", cursive;
+      font-size: 27px;
+      font-weight: 100;
+    }
   }
-}
-
-.blue {
-  background-color: blue;
 }

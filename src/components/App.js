@@ -24,9 +24,11 @@ function App() {
   };
   return (
     <div className="App">
-      <div className="mainBox">
+      <div className="App__mainBox">
         <div className="title-box">
-          <h1 className="mainBox__title">Choose yours Game of Thrones Quote</h1>
+          <h1 className="App__mainBox__title">
+            Choose yours Game of Thrones Quote
+          </h1>
         </div>
         <Quotes
           quote={quote}

@@ -1,0 +1,51 @@
+.quoteBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__quote {
+    margin-left: -100px;
+  }
+
+  &__charac {
+    margin-left: -380px;
+  }
+  &__house {
+    margin-left: -300px;
+  }
+  &__title-quote {
+    font-family: "Cinzel Decorative", cursive;
+    font-size: 20px;
+  }
+  &__title-charac {
+    font-family: "Cinzel Decorative", cursive;
+    font-size: 20px;
+  }
+  &__title-house {
+    font-family: "Cinzel Decorative", cursive;
+    // margin-right: 220px;
+    font-size: 20px;
+  }
+  &__description {
+    font-family: "Alegreya";
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+.btn {
+  margin-left: 400px;
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.btn-text {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 15px;
+}
+
+.new-quote-btn {
+  height: 50px;
+  width: 200px;
+}

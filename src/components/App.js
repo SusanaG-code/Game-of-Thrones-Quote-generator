@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Quotes from "./Quotes";
 import api from "../services/api";
-import "../stylesheets/App.css";
+import "../stylesheets/App.scss";
 
 function App() {
   const [quote, setQuote] = useState("");
@@ -24,9 +24,9 @@ function App() {
   };
   return (
     <div className="App">
-      <div className="main-box">
+      <div className="mainBox">
         <div className="title-box">
-          <h1 className="title">Choose yours Game of Thrones Quote</h1>
+          <h1 className="mainBox__title">Choose yours Game of Thrones Quote</h1>
         </div>
         <Quotes
           quote={quote}

@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheets/Quotes.css";
+import "../stylesheets/Quotes.scss";
 
 const Quotes = (props) => {
   const handleClick = (ev) => {
@@ -8,23 +8,23 @@ const Quotes = (props) => {
   };
 
   return (
-    <div id="quote-box" className="quote-box">
-      <div id="text" className="text">
+    <div id="quote-box" className="quoteBox">
+      <div id="text" className="quoteBox__quote">
         <p>
-          <span className="title-quote">Quote:</span>
-          <span className="description">{props.quote}</span>
+          <span className="quoteBox__title-quote">Quote:</span>
+          <span className="quoteBox__description">{props.quote}</span>
         </p>
       </div>
-      <div id="author" className="author">
+      <div id="author" className="quoteBox__charac">
         <p>
-          <span className="title-quote">Character:</span>
-          <span className="description">{props.character.name}</span>
+          <span className="quoteBox__title-charac">Character:</span>
+          <span className="quoteBox__description">{props.character.name}</span>
         </p>
       </div>
-      <div id="house" className="house">
+      <div id="house" className="quoteBox__house">
         <p>
-          <span className="title-quote">House:</span>
-          <span className="description">{props.house}</span>
+          <span className="quoteBox__title-house">House:</span>
+          <span className="quoteBox__description">{props.house}</span>
         </p>
       </div>
 

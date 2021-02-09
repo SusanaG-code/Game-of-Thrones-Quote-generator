@@ -1,5 +1,6 @@
 import React from "react";
 import "../stylesheets/Quotes.scss";
+import twitterLogo from "../images/twitter.svg";
 
 const Quotes = (props) => {
   const handleClick = (ev) => {
@@ -29,8 +30,24 @@ const Quotes = (props) => {
       </div>
 
       <div id="buttons" className="btn">
+        <button className="btn__twitter-btn">
+          <a
+            className="btn__twitter-btn__link"
+            href={`https://twitter.com/intent/tweet?text=${props.quote} - ${props.character.name}-${props.house}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tweet it!
+            <img
+              src={twitterLogo}
+              alt="twitter-logo"
+              className="btn__twitter-btn__logo"
+            ></img>
+          </a>
+        </button>
+
         <button id="new-quote" className="new-quote-btn" onClick={handleClick}>
-          <span className="btn-text">New Quote</span>
+          <span className="new-quote-btn__btn-text">New Quote</span>
         </button>
       </div>
     </div>

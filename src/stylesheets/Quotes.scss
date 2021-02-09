@@ -37,14 +37,33 @@
   display: flex;
   justify-content: center;
   font-family: "Cinzel Decorative", cursive;
-}
-
-.btn-text {
-  font-family: "Cinzel Decorative", cursive;
-  font-size: 15px;
+  &__twitter-btn {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border-style: none;
+    margin-right: 20px;
+    font-family: "Cinzel Decorative", cursive;
+    &__link {
+      flex-direction: column-reverse;
+      display: flex;
+      margin-right: 25px;
+      margin-top: -15px;
+      text-decoration: none;
+      color: black;
+    }
+    &__logo {
+      width: 70px;
+      margin-bottom: -15px;
+    }
+  }
 }
 
 .new-quote-btn {
   height: 50px;
   width: 200px;
+  &__btn-text {
+    font-family: "Cinzel Decorative", cursive;
+    font-size: 15px;
+  }
 }

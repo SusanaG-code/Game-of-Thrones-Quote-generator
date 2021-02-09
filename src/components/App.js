@@ -27,7 +27,7 @@ function App() {
       <div className="App__mainBox">
         <div className="title-box">
           <h1 className="App__mainBox__title">
-            Choose yours Game of Thrones Quote
+            Choose your Game of Thrones Quote
           </h1>
         </div>
         <Quotes
